@@ -11,6 +11,7 @@ On the one hand, this tool is used for simpler versioning of the source code at 
 On the other hand, it is used to reload dynamically generated VBA source code at runtime.
 
 ## Prerequisites
+- The macros **project name** has to be the same as the one in the variable **vbProject**.
 - The filename of the INI file has to be the same as the filename in which the macro is stored.
 - The INI file has to be located in the directory **ini**, which is located in the directory of the macro.
 - Each module, class, etc. to be loaded is located after the key importMod[Counter] with the full filename in the section **Import**.
@@ -30,7 +31,7 @@ Do these steps to allow it:
 
 ## Getting Started
 - The files **BiIVbProjectManager.bas** and **BiIClassIni.cls** have to be imported into a VBA macro. 
-- The INI file has to be modified to your needs.
+- The **INI file** and the **variables** in the **module BiIVbProjectManager** has to be modified to your needs.
 - Use **BiIVbProjectManager.ProjectLoader** to import
 - Use **BiIVbProjectManager.ProjectExporter** to export
 - That's all.
