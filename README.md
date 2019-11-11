@@ -15,13 +15,15 @@ On the other hand, it is used to reload dynamically generated VBA source code at
 - The filename of the INI file has to be the same as the filename in which the macro is stored.
 - The INI file has to be located in the directory **ini**, which is located in the directory of the macro.
 - Each module, class, etc. to be loaded is located after the key importMod[Counter] with the full filename in the section **Import**.
-```
-[Import]
-importMod0="C:\git\VBA\ModOne.bas"
-importMod1="C:\git\VBA\ModTwo.bas"
-```
+  ```
+  [Import]
+  importMod0="C:\git\VBA\ModOne.bas"
+  importMod1="C:\git\VBA\ModTwo.bas"
+  ```
 
 ## Limitations
+Unfortunately, this tool cannot be used in Outlook.
+
 To use this tool in Microsoft Office, **Trust access to the VBA project object model** has to be enabled.
 
 Do these steps to allow it:
