@@ -37,3 +37,6 @@ Do these steps to allow it:
 - Use **BiIVbProjectManager.ProjectLoader** to import
 - Use **BiIVbProjectManager.ProjectExporter** to export
 - That's all.
+
+## Do not waste time to protect VBA code
+[Is there a way to crack the password on an Excel VBA Project?](https://stackoverflow.com/questions/1026483/is-there-a-way-to-crack-the-password-on-an-excel-vba-project)
